@@ -3,7 +3,7 @@ A lightweight Python automation script that performs daily backups of a specifie
 
 The script uses Python’s schedule library to trigger backups at a fixed time each day and shutil.copytree() to create a full directory snapshot. Each backup is stored in a date-named folder, ensuring clean versioned backups without overwriting previous days.
 
-[+]Features
+[+] Features
 - Automatic daily backups at a scheduled time
 - Date-based backup folders (YYYY-MM-DD)
 - Preserves original directory structure
@@ -16,9 +16,9 @@ The script uses Python’s schedule library to trigger backups at a fixed time e
 - shutil
 - datetime
 
-[+]Use Case
+[+] Use Case
 - Perfect for developers who want a simple, no-nonsense local backup solution for projects, configs, or important folders—especially useful during active development.
 
-[+]How to run
-pip install schedule
-python backup.py 
+[+] How to run
+- pip install schedule
+- python backup.py 
